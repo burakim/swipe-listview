@@ -74,7 +74,11 @@ To illustrate what I said;
     }
 ```
 
-side variable represents swipe side and 0 for unswipped row and 1 for swipped row. position variable represents which row is gonna be created. Furthermore, ViewGroup container is parent view that stores rows.
+"side" variable represents swipe side and 0 for unswipped row and 1 for swipped row. 
+
+"position" variable represents which row is gonna be created. 
+
+Furthermore, ViewGroup "container" is parent view that stores rows.
 
 
 That's it, more power to you!
