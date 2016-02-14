@@ -25,8 +25,17 @@ If you are interested in swipe-listview, you can get more information about how 
 
 You need add dependecy line to your project build.gradle file:
 
-```sh
-compile(group: 'com.burakim', name: 'swipelistview', version: '0.0.1', ext: 'pom', ')
+```gradle
+android{
+    repositories {
+        maven {
+            url  "http://dl.bintray.com/burakim/maven"
+        }
+    }
+}
+dependencies {
+        compile 'com.burakim:swipelistview:0.0.1'
+}
 ```
 
 Sample swipe-listview usage
