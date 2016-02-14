@@ -1,0 +1,5 @@
+local.properties
+/build/*
+FloatingListView.iml
+/swipelistview/swipelistview.iml
+/app/app.iml
