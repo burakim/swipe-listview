@@ -1,32 +1,9 @@
 apply plugin: 'com.android.library'
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'swipe-listview'
 
-    publishedGroupId = 'com.burakim'
-    libraryName = 'SwipeListView'
-    artifact = 'swipe-listview'
-
-    libraryDescription = 'A customisable android listview that consist of swipeable rows.'
-
-    siteUrl = 'https://github.com/burakim/swipe-listview'
-    gitUrl = 'https://github.com/burakim/swipe-listview.git'
-
-    libraryVersion = '0.0.1'
-
-    developerId = 'burakim'
-    developerName = 'Burak Yesilyurt'
-    developerEmail = 'h.burakyesilyurt@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
-    apply plugin: 'com.jfrog.bintray'
-    apply plugin: 'com.github.dcendents.android-maven'
+
 
 
     defaultConfig {
@@ -43,8 +20,7 @@ android {
     }
 }
 
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
